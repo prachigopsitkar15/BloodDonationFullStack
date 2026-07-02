@@ -1,0 +1,352 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbarnav{
+  display: flex;
+  background-color: #414141;
+  justify-content: space-between;
+  color: whitesmoke;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  font-weight: 500;
+}
+.navbarul{
+  display: flex;
+  list-style: none;
+  color: whitesmoke;
+  justify-content: space-around;
+  gap: 30px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: -7px;
+  text-decoration: none;
+}
+.navbarli{
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+.site-title{
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+  font-weight: 500;
+}
+.sidenav{
+background-color: #1B262C;
+padding-left: -10px;
+height: 100vh;
+width: 15%;
+}
+.maincomp{
+background-color:#BBE1FA;
+}
+.Donor{
+  display: flex;
+  height:100vh;
+  margin-top: 0%;
+}
+.Patient{
+  display: flex;
+  height:100vh;
+  margin-top: 0%;
+}
+.Admin{
+  display: flex;
+  height:100vh;
+  margin-top: 0%;
+}
+.sidenavul{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: whitesmoke;
+ gap:20px;
+ font-size: larger;
+ text-align: left;
+  
+  text-decoration: none;
+}
+.donorpage{
+  width:85%;
+  background: linear-gradient(#e66465, #9198e5);
+}
+.patientpage{
+  width:85%;
+  background: linear-gradient(#e66465, #9198e5);
+}
+.adminpage{
+  width:85%;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+}
+.formbox{
+  background-color: aliceblue;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+}
+.form{
+  display: flex;
+  justify-content: space-around;
+}
+.labels{
+  padding: auto;
+}
+input[type=text],input[type=password],input[type=email] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid aliceblue;
+  border-radius: 7px;
+}
+input[type=text]:focus ,input[type=password]:focus,input[type=email]:focus{
+  border: 3px solid #9198e5;
+}
+button[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.employeeloginpage{
+  background-color: #e66465;
+  width:50%;
+}
+.adminloginpage{
+  background-color: #9198e5;
+  width:50%;
+}
+
+.logout{
+  display: flex;
+  
+  height:100vh;
+  margin-top: 0%;
+}
+.logoutpage{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:100vh;
+  
+  
+   
+   
+ 
+}
+.headlogout{
+text-align: center;
+background-color: #e66465;
+color: aliceblue;
+}
+.mainlogout{
+  text-align: center;
+}
+.logoutimg{
+  width:100px;
+}
+.stockpage{
+  display: flex;
+  
+  height:100vh;
+  margin-top: 0%;
+}
+.stockmainpage{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:100vh;
+  gap:10px;
+  
+    width:85%;
+   
+ 
+}
+.firstrow{
+display: flex;
+
+justify-content: space-around;
+height:25%;
+width:100%;
+
+
+}
+.secondrow{
+  display: flex;
+height:25%;
+width:100%;
+}
+.lastrow{
+  display: flex;
+height:15%;
+width:100%;
+}
+.card1{
+  background-color: aliceblue;
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.card2{
+  background-color: rgb(193, 203, 210);
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.bdgroupname{
+  text-align: right;
+}
+.bdnumber{
+  text-align: left;
+}
+.stocktitle{
+text-align: left;
+}
+.stocknumber{
+text-align: left;
+}
+.grpimg{
+  display: flex;
+  float: right;
+}
+.bloodicon{
+  height: 28px;
+  width:28px;
+
+}
+.lastrowicon{
+  height:40px;
+  width:40px;
+}
+.donationpage{
+  display: flex;
+  
+  height:100vh;
+  margin-top: 0%;
+}
+.donmainpage{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:100vh;
+  
+  
+    width:85%;
+
+}
+.tablediv{
+  width:90%;
+  background-color:aliceblue;
+  align-self: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+table, th, td {
+  border: 1px solid;
+}
+table {
+  width: 100%;
+ 
+    border-collapse: collapse;
+ 
+}
+
+th {
+  height: 70px;
+  background-color: #9198e5;
+  color: white;
+}
+td {
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.approvebut{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+
+  text-decoration: none;
+ border-radius: 4px;
+  cursor: pointer;
+  width:70px;
+  height: 40px;
+
+}
+.recievebut{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+
+  text-decoration: none;
+ border-radius: 4px;
+  cursor: pointer;
+  width:70px;
+  height: 40px;
+}
+.backgnd{
+  width: 100%;
+  height: 80%;
+  
+  object-fit:cover;
+
+}
